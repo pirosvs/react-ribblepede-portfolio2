@@ -9,7 +9,7 @@ export default function Resume(props) {
             <p>Click <a href={ResPDF} download="../../assets/resume-DA.pdf">here</a> to download resume</p>
             <ul className="list-group">
                 {/* Mapping our front end props by id */}
-            {props.frontEndProficiencies.map(item => (
+                {props.frontEndProficiencies.map(item => (
                 <li className="list-group-item" key={item.id}>
                 {item.skill}
                 </li>
@@ -19,7 +19,7 @@ export default function Resume(props) {
     );
 }
 
-// needs reusable map for uhh projects ive done and a downloadable link for resume
+// needs reusable map for uhh projects ive done
 
 const frontEndProficiencies = [
     {

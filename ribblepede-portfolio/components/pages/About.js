@@ -16,7 +16,7 @@ export default function About() {
         comics and make tailored suggestions to hir friends -- Ze's fallen down the rhythm game rabbit hole, currently spending
         a truly outstanding amount of time on Project DIVA: Mega Mix and Future Tone
         </p>
-        <img src="aboutImg" alt="Damien, a short white 'boy' and owner of this site, sits on some rocks in a river with trees in
+        <img src={aboutImg} alt="Damien, a short white 'boy' and owner of this site, sits on some rocks in a river with trees in
             the background. He has light blue glasses and a mask, a black jean jacket, pants, and boots, and a red shirt with a heart web design
             on it. There are some pins on the jacket and a crystal necklace."/>
     </div>
