@@ -1,4 +1,7 @@
 import React from 'react';
+// import Header from "./components/Header";
+// import Footer from "./components/Footer";
+// import Project from "./components/Project";
 import ResPDF from '../../assets/resume-DA.pdf';
 
 // Handing our function our props for it to use
