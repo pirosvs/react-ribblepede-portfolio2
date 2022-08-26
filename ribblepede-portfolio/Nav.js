@@ -1,7 +1,5 @@
 import React from 'react';
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
@@ -23,6 +21,15 @@ function Nav({ currentPage, handlePageChange }) {
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
           About
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#project"
+          onClick={() => handlePageChange('Portfolio')}
+          className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
         </a>
       </li>
       <li className="nav-item">
