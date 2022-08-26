@@ -1,0 +1,12 @@
+.footer {
+    background: #b25fff;
+    height: 100px;
+}
+  
+.foot h1 {
+    margin: 0;
+    /* padding-top: 75px; */
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}  
