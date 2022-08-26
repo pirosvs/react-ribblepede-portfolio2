@@ -1,7 +1,7 @@
 # react-portfolio-ribblepede
 
 ## Deployment Link
-
+<a href="https://react-ribblepede-portfolio.herokuapp.com/">Click here to access the site.</a>
 
 ## Description
 This project serves as a basic portfolio to demonstrate ability with React, allow interested parties to contact me, and display my work and resume.
