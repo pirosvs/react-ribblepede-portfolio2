@@ -5,6 +5,7 @@ import About from './pages/About';
 import Project from './pages/Project';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import { frontEndProficiencies, backEndProficiencies } from '../utils/skills';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -21,7 +22,7 @@ export default function PortfolioContainer() {
       return <Contact />;
     }
     if (currentPage === 'Resume') {
-      return <Resume />;
+      return <Resume frontEndProficiencies={frontEndProficiencies} backEndProficiencies={backEndProficiencies} />;
     }
     // return <Contact />;
   };
