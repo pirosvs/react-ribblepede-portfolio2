@@ -6,7 +6,7 @@ import NarratoriumImg from '../../assets/narratorium.png';
 import MovieSuggestGif from '../../assets/condensedFullDemo.gif';
 import EcommerceImg from '../../assets/ecom-vid-img.png';
 import PassGenImg from '../../assets/password-gen-img.png';
-import CodeQuizImg from '../../assets/code-quiz-img.png';
+import CodeQuizImg from '../../assets/quiz-ip.png';
 import SchedulerImg from '../../assets/manipulated-time-classes.png';
 
 export default function Project() {
