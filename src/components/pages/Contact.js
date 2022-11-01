@@ -44,6 +44,7 @@ export default function Contact() {
     };
 
   return (
+    // I would like these to be on top of each other, with the message box bigger than the others
     <div>
       <form className="form">
       <input
@@ -52,6 +53,7 @@ export default function Contact() {
           onChange={handleInputChange}
           type="name"
           placeholder="name"
+          class="form-label"
         />
         <input
           value={email}
@@ -59,6 +61,7 @@ export default function Contact() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          class="form-label"
         />
         <input
           value={message}

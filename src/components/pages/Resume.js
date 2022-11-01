@@ -8,7 +8,7 @@ import ResPDF from '../../assets/resume-DA.pdf';
 // FIX: NEED TO PUT IN ONE ARRAY OR FIGURE OUT HOW TO MAKE ANOTHER LIST/ DIV W/O ERRORS
 export default function Resume(props) {
     return (
-        <div>
+        <div class="container-md">
             <p>Click <a href={ResPDF} download="../../assets/resume-DA.pdf">here</a> to download resume</p>
             <ul className="list-group">
                 {/* Mapping our front end props by id */}

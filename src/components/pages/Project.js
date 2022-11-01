@@ -11,7 +11,7 @@ import SchedulerImg from '../../assets/manipulated-time-classes.png';
 
 export default function Project() {
   return (
-    <div>
+    <div class="container-md">
       <h1>Projects</h1>
       <p className="1/3 col space">
       <h2>Narratorium</h2>
