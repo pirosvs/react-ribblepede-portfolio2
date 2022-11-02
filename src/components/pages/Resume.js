@@ -10,9 +10,21 @@ export default function Resume(props) {
     return (
         <div class="container-md">
             <p>Click <a href={ResPDF} download="../../assets/resume-DA.pdf">here</a> to download resume</p>
+            <p>Proficiencies</p>
+            <hr/>
+            <p>Front End:</p>
             <ul className="list-group">
                 {/* Mapping our front end props by id */}
                 {props.frontEndProficiencies.map(item => (
+                <li className="list-group-item" key={item.id}>
+                {item.skill}
+                </li>
+            ))}
+            </ul>
+            <p>Back End:</p>
+            <ul className="list-group">
+                {/* Mapping our front end props by id */}
+                {props.backEndProficiencies.map(item => (
                 <li className="list-group-item" key={item.id}>
                 {item.skill}
                 </li>
