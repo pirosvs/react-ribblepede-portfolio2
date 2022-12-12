@@ -1,0 +1,4 @@
+/* need to make text smaller, not appear as running off (have containers), and fix issues with images */
+.lg-text {
+    font-size: 35px;
+}
