@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 // import Project from "./components/Project";
 import aboutImg from '../../assets/aboutimg.JPG';
 
+// new text to test ssh key
 export default function About() {
   return (
     <Container>
